@@ -2,7 +2,7 @@ input_list = [2, 4, 4, 8, 1,22, 64, 16]
 output_list = []
 
 for index, section in enumerate(input_list):
-    sibling = 128 / section
+    sibling = 256 / section
     add = True
     for ind in range(index + 1, len(input_list)):
         if input_list[ind] == section:
